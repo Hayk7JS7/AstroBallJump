@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css">
+  <title>Introduction to Solar System</title>
+</head>
+<body>
+  <div id="solar-system"></div>
+  <div id="planet" style="display: none;">
+    <canvas id="gameCanvas"></canvas>
+    <button class="ext-btn">EXIT</button>
+    <div id="panel" class="panel">
+      <button id="expandBtn"><img src="./src/svg/info.svg" /></button>
+      <div id="infoPanel" class="info-panel">
+        <h2>Planet Information</h2>
+        <div class="info-row">
+          <span class="label">Planet name:</span>
+          <span id="planetName" class="value"></span>
+        </div>
+        <div class="info-row">
+          <span class="label">Gravity:</span>
+          <span id="planetGravity" class="value"></span>
+        </div>
+        <div class="info-row">
+          <span class="label">Diameter:</span>
+          <span id="planetSize" class="value"></span>
+        </div>
+        <div class="info-row">
+          <span class="label">Distance from sun:</span>
+          <span id="planetDistance" class="value"></span>
+        </div>
+        <div class="info-row">
+          <span class="label">Planet composition:</span>
+          <span id="planetComposition" class="value"></span>
+        </div>
+        <h3>Interesting Facts:</h3>
+        <div id="planetFacts" class="facts"></div>
+        <button id="collapseBtn">Collapse</button>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="./js/index.js"></script>
+</body>
+</html>
