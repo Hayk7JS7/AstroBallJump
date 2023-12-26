@@ -22,10 +22,10 @@ cd AstroBallJump
 
 4. **Run the Project:**
     # If you're using npm
-    npm start
+    npm run
     
     # If you're using yarn
-    yarn start
+    yarn run
 
 5. **Open in Browser:**
     Open your web browser and navigate to http://localhost:3000 to view the project.
